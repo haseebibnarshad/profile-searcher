@@ -58,9 +58,11 @@ npm install     # or pnpm / yarn
 
 Add your GitHub token
 Create a .env.local file in the project root:
+
 ```
 GITHUB_TOKEN=ghp_yourPersonalAccessTokenHere
 ```
+
 The token is optional but strongly recommended to avoid hitting the GitHub rate‑limit for unauthenticated requests (60 req/hr → 5 000 req/hr).
 
 Run the dev server
