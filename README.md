@@ -27,7 +27,7 @@
 ## 🖼️ Screenshot
 
 <p align="center">
-  <img src="https://imgur.com/a/itKh4Xg" alt="App screenshot" width="750">
+  <img src="(https://imgur.com/a/itKh4Xg)" alt="App screenshot" width="750">
 </p>
 
 ---
