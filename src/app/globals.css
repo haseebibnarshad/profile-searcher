@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171223;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(rgb(171, 136, 225), rgba(207, 63, 63, 0.6));
+  height: 1px !important;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(172, 137, 225, 0.2);
+}
+
+#card {
+  z-index: 1;
+}
+
+.li-tab-stats {
+  @apply mt-4 flex w-fit items-center gap-5 border-text/80 transition-all duration-75 ease-in-out hover:border-b hover:text-text;
+}
+
+.blob {
+  filter: blur(60px);
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(rgb(171, 136, 225, 1), rgba(207, 63, 63, 1));
+}
+.fakeblob {
+  display: hidden;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.inner {
+  backdrop-filter: blur(40px);
+  transition: all 300ms ease-in-out;
+}
+
+.card:hover > .inner {
+  background: rgb(19, 13, 34, 0.9);
+  backdrop-filter: blur(0px);
+}
