@@ -27,19 +27,8 @@
 ## 🖼️ Screenshot
 
 <p align="center">
-  <img src="docs/project.jpg" alt="App screenshot" width="750">
+  <img src="https://imgur.com/a/itKh4Xg" alt="App screenshot" width="750">
 </p>
-
----
-
-## 🏗️ Tech Stack
-
-- **Next.js 14** + **React 18**
-- **TypeScript**
-- **Tailwind CSS** for styling
-- **Redux Toolkit** for state management
-- **GitHub REST API v3** (authenticated requests)
-- **Vercel** for zero‑config deployment
 
 ---
 
