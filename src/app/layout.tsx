@@ -9,21 +9,21 @@ config.autoAddCss = false;
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Github Finder",
-  description: "A Github Account Finder Website",
+  title: "gitfolio",
+  description: "A sleek GitHub profile explorer",
   keywords: [
     "Github",
     "Git",
-    "Github Finder",
+    "gitfolio",
     "Git and Github",
     "Github Account",
     "Git Account",
     "Git Finder",
-    "Github Finder",
+    "gitfolio",
     "Github Account",
     "github profile",
     "Github Profile",
-    "Github Ptofile Finder",
+    "Github Profile Finder",
     "Github Profile Searcher",
   ],
 };

@@ -22,10 +22,10 @@ const Navbar = () => {
     <nav className="flex items-center justify-between  px-6 py-5 sm:px-10 min-[756px]:px-6 min-[850px]:px-10">
       <Link
         href="/"
-        aria-label="Github Finder"
+        aria-label="gitfolio"
         className=" bg-gradient-to-r from-primary to-accent bg-clip-text text-2xl font-extrabold tracking-tighter text-transparent transition-all duration-300 ease-in-out hover:-translate-y-1 hover:from-[#c6adeb] hover:to-[#d65c5c] sm:text-3xl min-[756px]:text-4xl"
       >
-        Github Finder
+        gitfolio
       </Link>
       <form
         onSubmit={handleSubmit}
